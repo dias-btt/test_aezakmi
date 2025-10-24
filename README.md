@@ -26,7 +26,7 @@ Built with iOS 15+ in mind, using MVVM architecture, Core Data (or file system s
 - **Pickers:**  
   - `ImagePicker` — a `UIViewControllerRepresentable` wrapper around `PHPickerViewController` for selecting images.  
   - `.fileImporter` — for selecting PDF or image files from the Files app.  
-- **Storage:** Documents are saved in the app’s Documents directory.  
+- **Storage:** Documents are saved using CoreData.  
 - **Views:** Modular components like `SelectedImagesScrollView`, `ActionButtonsView`, `LoadingOverlayView` for UI clarity.
 
 ## ✅ Setup & Running  
